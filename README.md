@@ -1,4 +1,4 @@
-# TicTacToe-Game
+# Tic Tac Toe - Web Game
 Developed a web-based Tic-Tac-Toe game using HTML, CSS, and JavaScript with two gameplay modes:
 <ol>
     <li>Two-Player Mode – Local multiplayer where two users play on the same device.</li>
