@@ -49,7 +49,7 @@ const checkWinner = () => {
 
 
 
-
+// Main
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -63,12 +63,12 @@ boxes.forEach((box) => {
     box.addEventListener("click", () => {
         if(turn0){
             box.classList.add("red");
-            box.innerText="o";
+            box.innerText='O';
             turn0 = false;
         }
         else{
             box.classList.add("blue");
-            box.innerText="x";
+            box.innerText='X';
             turn0 = true;
         }
         box.disabled = true;
